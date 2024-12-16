@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->close();
     $conn->close();
 
-    header('Location: dashboard.php'); // Przekierowanie po dodaniu notatki
+    header('Location: dashboard.php');
     exit();
 }
 ?>

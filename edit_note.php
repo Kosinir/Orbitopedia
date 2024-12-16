@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <!--<script src="Form Validator/script.js" type="text/javascript"></script>-->
     <meta name="author" content="Szymon Warguła">
     <link rel="icon" href="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" type="image/x-icon">
     

@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn = new mysqli("localhost", "root", "", "authorization");
 
     if ($conn->connect_error) {
-        die("Operation failed."); // Bezpieczniejszy komunikat
+        die("Operation failed.");
     }
 
     // Hashowanie hasła przy użyciu SHA2
@@ -21,7 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("si", $newPassword, $userId);
 
     if ($stmt->execute()) {
-        // Przekierowanie po pomyślnej zmianie hasła
         header("Location: dashboard.php");
         exit();
     } else {
