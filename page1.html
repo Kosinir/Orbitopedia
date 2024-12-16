@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Orbitopedia - Demo</title>
+    <meta charset = utf-8>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Astronomy">
+    <meta name="keywords" content="Astronomy, Cosmos, Planets, Universe">
+    <link rel="icon" href="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" type="image/x-icon">
+    <meta name="author" content="Szymon Warguła">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+    </div>
+    <div id="header">
+        <div id="logo">
+            <a href="main.html"><img src="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" alt="Uni-logo" id="Uni-logo">
+            </a>
+            The Site about Cosmos - Demo
+        </div>
+        <div id="menu-ex">
+            <nav>
+                <a href="page1.html">
+                    <div id="Planets and Moons">Planets and Moons</div>
+                </a>
+                <a href="page2.html">
+                    <div id="Constelations">Constelations</div>
+                </a>
+                <a href="page3.html">
+                    <div id="Galactics">Galactics</div>
+                </a>
+            </nav>
+        </div>
+        <div id="menu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+                &times;
+            </a>
+            <a href="page1.html">Planets and Moons</a>
+            <a href="page2.html">Constelations</a>
+            <a href="page3.html">Galactics</a>
+        </div>
+        <span onclick="toggleNav()" class="menu-button">&#9776; Menu</span>
+        <button id="mode" onclick="ModeToogle()">Dark Mode</button>
+        <a href="form.html" id="LoginFormButton">Sign in</a>   
+    </div>
+    <div id="sub-header">
+        <h2>Orbitopedia</h2>
+    </div>
+
+    <div class="main-body">
+        <div class="page-main-content">
+        <h1>Planets and Moons of the Solar System</h1>
+<p>Explore the fascinating worlds that orbit our Sun, from the rocky planets close to the Sun to the gas giants with their numerous moons.</p>
+<hr>
+<section id="solar-system-overview">
+    <h2>The Solar System Overview</h2>
+    <p>The Solar System consists of eight planets that orbit the Sun, each with unique characteristics and a variety of moons.</p>
+    <p>From small, rocky worlds to massive gas giants, each planet and its moons offer a glimpse into the diversity and complexity of our cosmic neighborhood.</p>
+</section>
+<hr>
+<section id="planets">
+
+    <article id="mercury">
+        <h3>Mercury</h3>
+        <p>Mercury is the closest planet to the Sun and the smallest in the Solar System. It has no moons.</p>
+        <img src="https://images.unsplash.com/photo-1707653057277-dd9d8be87b27?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of Mercury">
+        <p>Less is known about Mercury than about other planets of our Solar System. Even with telescopes only a small, bright crescent can be seen.</p>
+    </article>
+    <hr>
+    <article id="venus">
+        <h3>Venus</h3>
+        <p>Venus is known for its thick, toxic atmosphere and high surface temperatures. Like Mercury, it has no moons.</p>
+        <img src="https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=1024" alt="Image of Venus">
+        <p>At the surface it has a mean temperature of 737 K (464 °C; 867 °F) and a pressure 92 times that of Earth's at sea level. These extreme conditions compress carbon dioxide into a supercritical state at Venus's surface.</p>
+    </article>
+    <hr>
+    <article id="earth">
+        <h3>Earth</h3>
+        <p>Earth is the only planet known to support life and has one natural satellite, the Moon.</p>
+        <img src="https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm-1200-80.jpg" alt="Image of Earth and Moon">
+        <p>Earth has a dynamic atmosphere, which sustains Earth's surface conditions and protects it from most meteoroids and UV-light at entry. It has a composition of primarily nitrogen and oxygen. </p>
+    </article>
+    <hr>
+    <article id="mars">
+        <h3>Mars</h3>
+        <p>Known as the Red Planet, Mars has two small moons: Phobos and Deimos.</p>
+        <img src="https://images.moneycontrol.com/static-mcnews/2024/09/20240912075803_Sheetal-Kumari-fi-12.jpg?impolicy=website&width=770&height=431" alt="Image of Mars">
+        <p>
+            Geologically, the planet is fairly active with marsquakes trembling underneath the ground, dust devils sweeping across the landscape, and cirrus clouds.
+        </p>
+    </article>
+    <hr>
+    <article id="jupiter">
+        <h3>Jupiter</h3>
+        <p>Jupiter is the largest planet in the Solar System and has over 70 moons, including Ganymede, the largest moon.</p>
+        <img src="https://cdn.forumcomm.com/dims4/default/81b7849/2147483647/strip/true/crop/1726x812+0+0/resize/840x395!/quality/90/?url=https%3A%2F%2Fforum-communications-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fe5%2F81%2F001e79d84aceb38e8ee5eb54d850%2Fjupiter-inner-moons-and-galileans.jpg" alt="Image of Jupiter and its moons">
+        <p>
+            Jupiter was the first of the Sun's planets to form, and its inward migration during the primordial phase of the Solar System affected much of the formation history of the other planets.
+        </p>
+    </article>
+    <hr>
+    <article id="saturn">
+        <h3>Saturn</h3>
+        <p>Famous for its rings, Saturn has over 80 moons, with Titan being the largest and most well-known.</p>
+        <img src="https://www.perthobservatory.com.au/wp-content/uploads/saturn-and-moons.jpg" alt="Image of Saturn and its rings">
+        <p>
+            The planet has a bright and extensive system of rings, composed mainly of ice particles, with a smaller amount of rocky debris and dust. 
+        </p>
+    </article>
+    <hr>
+    <article id="uranus">
+        <h3>Uranus</h3>
+        <p>Uranus is an ice giant with a unique tilt, and it has 27 known moons, including Titania and Oberon.</p>
+        <img src="https://cff2.earth.com/uploads/2023/05/05171158/Moons-scaled.jpg" alt="Image of Uranus and its moons">
+        <p>
+            It is a gaseous cyan-coloured ice giant. Most of the planet is made of water, ammonia, and methane in a supercritical phase of matter, which astronomy calls "ice" or volatiles. The planet's atmosphere has a complex layered cloud structure and has the lowest minimum temperature (49 K (−224 °C; −371 °F)) of all the Solar System's planets.
+        </p>
+    </article>
+    <hr>
+    <article id="neptune">
+        <h3>Neptune</h3>
+        <p>The furthest planet from the Sun, Neptune has 14 known moons, including Triton, which orbits in the opposite direction.</p>
+        <img src="https://i.pinimg.com/474x/64/29/93/6429931a1b76eeac90aea2cc3041021f.jpg" alt="Image of Neptune and Triton">
+        <p>
+            It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth. Compared to its fellow ice giant Uranus, Neptune is slightly more massive, but denser and smaller. Being composed primarily of gases and liquids,[21] it has no well-defined solid surface, and orbits the Sun once every 164.8 years at an orbital distance of 30.1 astronomical units (4.5 billion kilometres; 2.8 billion miles). 
+        </p>
+    </article>
+</section>
+<hr>
+<section id="moons">
+    <h2>Moons</h2>
+    <p>Moons are natural satellites that orbit planets. Each moon has its unique composition, surface conditions, and relationship to its host planet.</p>
+    <hr>
+    <article id="moon-earth">
+        <h3>Earth's Moon</h3>
+        <p>The Moon is Earth's only natural satellite and plays a crucial role in Earth's tides and night sky.</p>
+        <img src="https://images.newscientist.com/wp-content/uploads/2024/06/27164847/SEI_210650080.jpg" alt="Image of Earth's Moon">
+        <p>
+            In geophysical terms, the Moon is a planetary-mass object or satellite planet. Its mass is 1.2% that of the Earth, and its diameter is 3,474 km (2,159 mi), roughly one-quarter of Earth's (about as wide as the United States from coast to coast). Within the Solar System, it is the largest and most massive satellite in relation to its parent planet, the fifth largest and most massive moon overall, and larger and more massive than all known dwarf planets.
+        </p>
+    </article>
+    <hr>
+    <article id="titan">
+        <h3>Titan (Saturn)</h3>
+        <p>Titan, Saturn's largest moon, has a thick atmosphere and liquid lakes of methane on its surface.</p>
+        <img src="https://media.npr.org/assets/img/2017/10/16/titan_wide-85f3cbaf84bef95b64b8d00ab66f07d2515653ba.jpeg?s=1400&c=100&f=jpeg" alt="Image of Titan, Saturn's moon">
+        <p>
+            It is the only moon known to have an atmosphere denser than the Earth's and is the only known object in space—other than Earth—on which there is clear evidence that stable bodies of liquid exist. Titan is one of seven gravitationally rounded moons of Saturn and the second-most distant among them.
+        </p>
+    </article>
+    <hr>
+    <article id="ganymede">
+        <h3>Ganymede (Jupiter III)</h3>
+        <p>Ganymede is the largest moon in the Solar System and even larger than Mercury.</p>
+        <img src="https://www.universetoday.com/wp-content/uploads/2010/02/ganymedeenhanced_galileo.jpg" alt="Image of Ganymede, Jupiter's moon">
+        <p>
+            Like Saturn's largest moon Titan, it is larger than the planet Mercury, but has somewhat less surface gravity than Mercury, Io, or the Moon due to its lower density compared to the three.
+        </p>
+    </article>
+    <hr>
+    <article id="triton">
+        <h3>Triton (Neptune)</h3>
+        <p>Triton is Neptune's largest moon and has geysers that spew nitrogen gas.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXVV3apaGnYLOFjlyHXvV6ujkhLE7FH74ygw&s" alt="Image of Triton, Neptune's moon">
+        <p>
+            It is the only moon of Neptune massive enough to be rounded under its own gravity and hosts a thin but well-structured atmosphere. Triton orbits Neptune in a retrograde orbit—revolving in the opposite direction to the parent planet's rotation—the only large moon in the Solar System to do so.
+        </p>
+    </article>
+</section>
+<hr>
+<h2>Planets in the Solar System</h2>
+<table id="p1-planets-moons-table">
+    <tr>
+      <th>Planet</th>
+      <th>Diameter (km)</th>
+      <th>Moons</th>
+    </tr>
+    <tr>
+      <td>Mercury</td>
+      <td>4,879</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Venus</td>
+      <td>12,104</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Earth</td>
+      <td>12,742</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Mars</td>
+      <td>6,779</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Jupiter</td>
+      <td>139,820</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <td>Saturn</td>
+      <td>116,460</td>
+      <td>83</td>
+    </tr>
+    <tr>
+      <td>Uranus</td>
+      <td>50,724</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>Neptune</td>
+      <td>49,244</td>
+      <td>14</td>
+    </tr>
+  </table>
+  
+  
+
+<footer>
+    <h3>References and Further Reading</h3>
+    <ul>
+        <li><a href="https://solarsystem.nasa.gov" target="_blank">NASA Solar System Exploration</a></li>
+        <li><a href="https://www.esa.int" target="_blank">European Space Agency</a></li>
+    </ul>
+</footer>
+
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Author</h4>
+                    <ul>
+                        <li><a href="https://github.com/Kosinir" target="_blank">Szymon Warguła 158037</a></li>
+                        <li><a href="https://ekursy.put.poznan.pl/course/view.php?id=14599" target="_blank">Course</a></li>
+                        <li><a href="https://put.poznan.pl" target="_blank">University</a></li>
+                
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sources</h4>
+                    <ul>
+                        <li><a href="https://cosmos.network/presskit/" target="_blank">Logo</a></li>
+                        <li><a href="https://pl.wikipedia.org/wiki/Wszechświat" target="_blank">Wikipedia</a></li>
+                        <li><a href="https://unsplash.com" target="_blank">Photos</a ></li>
+                
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Other</h4>
+                    <ul>
+                        <li><a href="html-cms-zadanie.pdf" target="_blank">Task</a></li>
+                    </ul>
+                </div>            
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleNav() {
+        var menu = document.getElementById("menu");
+        if (menu.style.width === "250px") {
+            menu.style.width = "0";
+        } 
+         else {
+            menu.style.width = "250px"; 
+        }
+    }
+    function ModeToogle() {
+    document.body.classList.toggle('dark-mode');
+    document.querySelector('.main-body').classList.toggle('dark-mode');
+    //document.querySelector('.contact-form').classList.toggle('dark-mode');
+    const button = document.getElementById('mode');
+    if (document.body.classList.contains('dark-mode')) {
+        button.textContent = "Light Mode";
+    } else {
+        button.textContent = "Dark Mode";
+    }
+}
+</script>
+</html>

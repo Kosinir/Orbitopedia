@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="icon" href="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" type="image/x-icon">
+    <meta name="keywords" content="UserPage, Notes">
+    <meta name="description" content="Notes">
+    <meta name = "author" content="Szymon Warguła">
+    <title>User Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+    </div>
+    <div id="header">
+        <div id="logo">
+            <a href="main.html"><img src="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" alt="Uni-logo" id="Uni-logo">
+            </a>
+            The Site about Cosmos - Demo
+        </div>
+        <div id="menu-ex">
+            <nav>
+                <a href="page1.html">
+                    <div id="Planets and Moons">Planets and Moons</div>
+                </a>
+                <a href="page2.html">
+                    <div id="Constelations">Constelations</div>
+                </a>
+                <a href="page3.html">
+                    <div id="Galactics">Galactics</div>
+                </a>
+            </nav>
+        </div>
+        <div id="menu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" id="close-menu">
+                &times;
+            </a>
+            <a href="page1.html">Planets and Moons</a>
+            <a href="page2.html">Constelations</a>
+            <a href="page3.html">Galactics</a>
+        </div>
+        <span onclick="toggleNav()" class="menu-button">&#9776; Menu</span>
+        <button id="mode" class="mode">Dark Mode</button>   
+        <a href="Form Validator/formularz.html" id="LoginFormButton">Sign in</a>
+    </div>
+    <div id="sub-header">
+        <h2>Orbitopedia</h2>
+    </div>
+    <div id="main-body" class="main-body">
+    <div id="table-container" class="table-container">
+        <h1>User's Notes</h1>
+        <table id="dynamic-table">
+            <thead>
+                <tr>
+                    <th class="checkbox-column"></th>
+                    <th>Date of Observation</th>
+                    <th>Object</th>
+                    <th>Localization</th>
+                    <th>Additional Notes</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be dynamically added -->
+            </tbody>
+        </table>
+        <div id="controls">
+            <button id="add-row-button">Add Row</button>
+            <button id="delete-row-button">
+                Delete Selected Rows
+            </button>
+        </div>
+        <p>Total Rows: <span id="row-count">0</span></p>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Author</h4>
+                    <ul>
+                        <li><a href="https://github.com/Kosinir" target="_blank">Szymon Warguła 158037</a></li>
+                        <li><a href="https://ekursy.put.poznan.pl/course/view.php?id=14599" target="_blank">Course</a></li>
+                        <li><a href="https://put.poznan.pl" target="_blank">University</a></li>
+                
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sources</h4>
+                    <ul>
+                        <li><a href="https://cosmos.network/presskit/" target="_blank">Logo</a></li>
+                        <li><a href="https://pl.wikipedia.org/wiki/Wszechświat" target="_blank">Wikipedia</a></li>
+                        <li><a href="https://unsplash.com" target="_blank">Photos</a ></li>
+                
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Other</h4>
+                    <ul>
+                        <li><a href="html-cms-zadanie.pdf" target="_blank">Task</a></li>
+                    </ul>
+                </div>            
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang = en>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="Form Validator/script.js" type="text/javascript"></script>
+    <meta name="author" content="Szymon Warguła">
+    <link rel="icon" href="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" type="image/x-icon">
+    <title>Rejestracja</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+    </div>
+    <div id="header">
+        <div id="logo">
+            <a href="main.html"><img src="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" alt="Uni-logo" id="Uni-logo">
+            </a>
+            The Site about Cosmos - Demo
+        </div>
+        <div id="menu-ex">
+            <nav>
+            <a href="page1.html">
+                <div id="Planets">Planets and Moons</div>
+            </a>
+            <a href="page2.html">
+                <div id="Constelations">Constelations</div>
+            </a>
+            <a href="page3.html">
+                <div id="Galactics">Galactics</div>
+            </a>
+        </nav>
+        </div>
+        <div id="menu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+                &times;
+            </a>
+            <a href="page1.html">Planets and Moons</a>
+            <a href="page2.html">Constelations</a>
+            <a href="page3.html">Galactics</a>
+        </div>
+        <span onclick="toggleNav()" class="menu-button">&#9776; Menu</span>
+        <button id="mode" onclick="ModeToogle()">Dark Mode</button>
+        <a href="form.html" id="LoginFormButton">Sign in</a>   
+    </div>
+    <div id="sub-header">
+        <h2>Orbitopedia</h2>
+    </div>
+<div id="main-sign-up">
+ <form name="reg-form" id="reg-form" method="post" novalidate>
+    <h1>Registration Form</h1>
+    <div id="error-summary" class="error-summary"></div>
+    <table>
+ <tr>
+    <td><label for="f_name">Name:</label></td>
+    <td>
+        <div class="input-container">
+            <input type="text" name="f_name" id="f_name">
+            <span class="error-star" id="f_name-error"></span>
+        </div>
+    </td>
+</tr>
+ <tr>
+    <td><label for="f_lastname">Last Name:</label></td>
+    <td>
+        <div class="input-container">
+            <input type="text" name="f_lastname" id="f_lastname">
+            <span class="error-star" id="f_lastname-error"></span>
+        </div>
+    </td>
+</tr>
+ <tr>
+    <td><label for="f_email">E-mail:</label></td>
+    <td>
+        <div class="input-container">
+            <input type="text" name="f_email" id="f_email">
+            <span class="error-star" id="f_email-error"></span>
+        </div>
+    </td>
+</tr>
+ <tr>
+    <td><label for="f_birth">Date of Birth:</label></td>
+    <td>
+        <div class="input-container">
+            <input type="date" name="f_birth" id="f_birth">
+            <span class="error-star" id="f_birth-error"></span>
+        </div>
+    </td>
+</tr>
+ <tr>
+ <td><label for="f_password">Password:</label></td>
+ <td>
+    <div class="input-container">
+        <input type="password" name="f_password" id="f_password">
+        <span class="error-star" id="f_password-error"></span>
+    </div>
+ </td>
+ </tr>
+ <tr>
+    <td><label for="f_confirm_password">Powtórz hasło:</label></td>
+    <td>
+        <div class="input-container">
+        <input type="password" id="f_confirm_password" name="f_confirm_password">
+        <span class="error-star" id="f_confirm-password-error"></span>
+        </div>
+    </td>
+</tr>
+ <tr>
+    <td><label for="f_info">Additional information:</label></td>
+    <td>
+        <div class="input-container">
+            <textarea rows="5" cols="15" id="f_info" name="f_info" maxlength="20" placeholder="Your message..."></textarea>
+        </div>
+    </td>
+</tr>
+ </table>
+ <input type="submit" value="Sign up" id="submit-button">
+ <h6><a href="login.html">Already have account? Login in.</a></h6>
+ </form>
+ </div>
+ <footer class="footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Author</h4>
+                <ul>
+                    <li><a href="https://github.com/Kosinir" target="_blank">Szymon Warguła 158037</a></li>
+                    <li><a href="https://ekursy.put.poznan.pl/course/view.php?id=14599" target="_blank">Course</a></li>
+                    <li><a href="https://put.poznan.pl" target="_blank">University</a></li>
+            
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Sources</h4>
+                <ul>
+                    <li><a href="https://cosmos.network/presskit/" target="_blank">Logo</a></li>
+                    <li><a href="https://pl.wikipedia.org/wiki/Wszechświat" target="_blank">Wikipedia</a></li>
+                    <li><a href="https://unsplash.com" target="_blank">Photos</a ></li>
+            
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Other</h4>
+                <ul>
+                    <li><a href="html-cms-zadanie.pdf" target="_blank">Task</a></li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+</footer>
+</body>
+</html>

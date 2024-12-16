@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Orbitopedia - Demo</title>
+    <meta charset = utf-8>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Astronomy">
+    <meta name="keywords" content="Astronomy, Cosmos, Planets, Universe">
+    <link rel="icon" href="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" type="image/x-icon">
+    <meta name="author" content="Szymon Warguła">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+    </div>
+    <div id="header">
+        <div id="logo">
+            <a href="main.html"><img src="https://cosmos.network/presskit/cosmos-brandmark-dynamic-dark.svg" alt="Uni-logo" id="Uni-logo">
+            </a>
+            The Site about Cosmos - Demo
+        </div>
+        <div id="menu-ex">
+            <nav>
+            <a href="page1.html">
+                <div id="Planets">Planets and Moons</div>
+            </a>
+            <a href="page2.html">
+                <div id="Constelations">Constelations</div>
+            </a>
+            <a href="page3.html">
+                <div id="Galactics">Galactics</div>
+            </a>
+        </nav>
+        </div>
+        <div id="menu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+                &times;
+            </a>
+            <a href="page1.html">Planets and Moons</a>
+            <a href="page2.html">Constelations</a>
+            <a href="page3.html">Galactics</a>
+        </div>
+        <span onclick="toggleNav()" class="menu-button">&#9776; Menu</span>
+        <button id="mode" onclick="ModeToogle()">Dark Mode</button>
+        <a href="form.html" id="LoginFormButton">Sign in</a>   
+    </div>
+    <div id="sub-header">
+        <h2>Orbitopedia</h2>
+    </div>
+    <div class="main-body">
+        <section class="slinder-container">
+            <div class="slider-wrapper">
+                <button class="slider-arrow prev" onclick="prevSlide()">&#10094;</button> 
+                <div class="slider">
+                    <img id="slide-1" src="https://images.unsplash.com/photo-1654263391025-4c4809a37f5c?q=80&w=1200&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="jupiter - photo">
+                    <img id="slide-2" src="https://images.unsplash.com/photo-1624473093494-83ebd067aafc?q=80&w=1200&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sky of star - photo">
+                    <img id="slide-3" src="https://images.unsplash.com/photo-1684020273098-95959b732b42?q=80&w=1200&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="galaxy - photo">
+                </div>
+                <button class="slider-arrow next" onclick="nextSlide()">
+                    &#10095;
+                </button>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <article>
+        <h3>Orbitopedia: The destination for cosmos enthusiasts</h3>
+        <p>
+            Orbitopedia is the place to explore the vastness of the cosmos, from the origins of the universe and the wonders of celestial bodies to the latest discoveries in astronomy. Our meticulously researched articles cover a wide range of topics, from planets and moons to stars, galaxies, and beyond, accompanied by stunning visuals of the cosmos. We delve into the history of space exploration, the technology behind space missions, and the fascinating phenomena that shape our universe.
+        </p>
+        <p>
+            Orbitopedia continues to grow as an ever-evolving resource, largely supported by passionate astronomy enthusiasts. As a reader, you can help improve our site. If you spot an error, feel free to let us know. If you believe there's a missing topic, add it to our suggestion list. Your contributions and support help us keep expanding this cosmic knowledge hub!
+        </p>
+        </article>
+        <hr>
+        <article class="news">
+            <h2>Latest News</h2>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">When to look up in November ✨<br><br>Look out for Jupiter, Saturn, and Mars in the night sky throughout the month. If you live in the eastern half of the U.S. or Canada, you might be able to see a stellar lunar event—an occultation—when the Moon hides a bright star! <a href="https://t.co/NAQm7E3HS1">pic.twitter.com/NAQm7E3HS1</a>
+                </p>
+                &mdash; NASA (@NASA) 
+                <a href="https://twitter.com/NASA/status/1852418145362788379?ref_src=twsrc%5Etfw">November 1, 2024</a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+            </script>
+        </article>
+        <hr>
+        <article>
+            <h3>Three Topics We Cover:</h3>
+            <div class="main-content">
+                <a href="page1.html">
+                    <img src="https://images.unsplash.com/photo-1501523321-8ecb927b4be6?q=40&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="moon photo" class="img-left">
+                </a>
+                <p>
+                    <a href="page1.html">
+                        <strong>Planets and Moons: </strong>
+                    </a>
+                    Dive deep into the fascinating worlds within our solar system and beyond. From the gas giants of Jupiter and Saturn to the rocky planets like Mars and Venus, we cover the diverse environments and characteristics of these celestial bodies. You'll also learn about the moons that orbit these planets, including our own Moon and the icy moons of distant worlds like Europa and Enceladus.
+                </p>
+                <a href="page2.html">
+                    <img src="https://plus.unsplash.com/premium_photo-1721235402308-4bf4f5ef243b?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="moon photo" class="img-right">
+                </a>
+                <br>
+                <p>
+                    <a href="page2.html">
+                        <strong>Constellations:</strong>
+                    </a>
+                    The night sky is home to a rich tapestry of constellations, each with its own stories and significance. We explore both the well-known constellations, like Orion and Ursa Major, and lesser-known but equally intriguing patterns in the stars. Our articles provide insights into the mythology, history, and modern-day importance of these star groupings, guiding you on how to identify them in the sky.
+                </p>
+                <a href="page3.html"><img src="https://plus.unsplash.com/premium_photo-1669839137069-4166d6ea11f4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="moon photo" class="img-left">
+                </a>
+                <br>
+                <p>
+                    <a href="page3.html">
+                    <strong>Galactics:</strong>
+                    </a>
+                    Beyond our solar system lies the vast and mysterious expanse of galaxies. From our own Milky Way to the distant Andromeda galaxy, we take you on a journey through these massive collections of stars, gas, and dust. Learn about their formation, structure, and the exciting discoveries astronomers continue to make as we peer deeper into the universe.
+                </p>
+        </article>
+        <hr>
+        <div class="contact-form">
+            <h4>Contact Us!</h4>
+            <form target="#">
+                <label for="f-name">Name:</label>
+                <input id="f-name" type="text" name="firstname" placeholder="Your name...">
+                <label for="f-lname">Last name:</label>
+                <input type="text" id="f-lname" name="LastName" placeholder="Your last name...">
+                <label for="f-email">Email:</label>
+                <input id="f-email" type="email" name="Email" placeholder="Format: example@example.com">
+                <label for="f-tel">Phone Number:</label>
+                <input type="tel" placeholder="Your Phone Number..." pattern="[0-9]{10}">
+                <label for="f-color">Your favourite color:</label>
+                <input type="color" name="f-color" id="f-color"><br>
+                <label for="f-message">Additional Message:</label>
+                <textarea id="f-message" name="f-message" rows="4" col="50" placeholder="Your message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Author</h4>
+                    <ul>
+                        <li><a href="https://github.com/Kosinir" target="_blank">Szymon Warguła 158037</a></li>
+                        <li><a href="https://ekursy.put.poznan.pl/course/view.php?id=14599" target="_blank">Course</a></li>
+                        <li><a href="https://put.poznan.pl" target="_blank">University</a></li>
+                
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sources</h4>
+                    <ul>
+                        <li><a href="https://cosmos.network/presskit/" target="_blank">Logo</a></li>
+                        <li><a href="https://pl.wikipedia.org/wiki/Wszechświat" target="_blank">Wikipedia</a></li>
+                        <li><a href="https://unsplash.com" target="_blank">Photos</a ></li>
+                
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Other</h4>
+                    <ul>
+                        <li><a href="html-cms-zadanie.pdf" target="_blank">Task</a></li>
+                    </ul>
+                </div>            
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleNav() {
+        var menu = document.getElementById("menu");
+        if (menu.style.width === "250px") {
+            menu.style.width = "0";
+        } 
+         else {
+            menu.style.width = "250px"; 
+        }
+    }
+    function ModeToogle() {
+    document.body.classList.toggle('dark-mode');
+    document.querySelector('.main-body').classList.toggle('dark-mode');
+    //document.querySelector('.contact-form').classList.toggle('dark-mode');
+    const button = document.getElementById('mode');
+    if (document.body.classList.contains('dark-mode')) {
+        button.textContent = "Light Mode";
+    } else {
+        button.textContent = "Dark Mode";
+    }
+}
+</script>
+</html>
