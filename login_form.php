@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["f_email"];
     $password = $_POST["f_password"];
 
-    $conn = new mysqli("localhost", "root", "", "authorization");
+    $conn = new mysqli("localhost", "root", "", "Orbitopedia");
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

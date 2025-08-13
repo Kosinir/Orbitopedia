@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $newPassword = $_POST["new_password"];
     $userId = $_SESSION['user_id'];
 
-    $conn = new mysqli("localhost", "root", "", "authorization");
+    $conn = new mysqli("localhost", "root", "", "Orbitopedia");
 
     if ($conn->connect_error) {
         die("Operation failed.");

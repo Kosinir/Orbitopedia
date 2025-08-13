@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 $noteId = $_GET['id'];
-$conn = new mysqli("localhost", "root", "", "authorization");
+$conn = new mysqli("localhost", "root", "", "Orbitopedia");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
